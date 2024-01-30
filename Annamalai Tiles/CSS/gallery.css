@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --color: #0065b3;
+    --black: black;
+    --white: white;
+    --red:red;
+    /* --color:#c5151e; */
+
+}
+
+
+.contact-topic-1{
+    position:absolute;
+    top:43%;
+    left:45%;
+}
+
+.contact-topic-1 h1{
+    color: white;
+}
+
+
+.gallery-picture{
+    margin-top:80px;
+    margin-bottom:60px;
+    overflow: hidden;
+ 
+}
+.gallery-picture .mb-2 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+
+.gallery-picture .col-lg-4{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.ovy{
+    position: absolute;
+    top:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:1s;
+    opacity: 50%;
+    flex-direction: column;
+
+}
+.col-lg-4:hover .ovy{
+    top:0;
+    
+ }
+ .ovy i{
+    color:white;
+     margin-right: 0; 
+    font-size:30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+
+  
+
+.contact-topic-1{
+    position:absolute;
+    top:43%;
+    left:34%;
+}
+
+.contact-topic-1 h1{
+    color: white;
+}
+
+
+.gallery-picture{
+    margin-top:80px;
+    margin-bottom:60px;
+    overflow: hidden;
+ 
+}
+.gallery-picture .mb-2 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+
+.gallery-picture .col-lg-4{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.ovy{
+    position: absolute;
+    top:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:1s;
+    opacity: 50%;
+    flex-direction: column;
+
+}
+.col-lg-4:hover .ovy{
+    top:0;
+    
+ }
+ .ovy i{
+    color:white;
+     margin-right: 0; 
+    font-size:30px;
+}
+
+
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+
+ 
+.contact-topic-1{
+    position:absolute;
+    top:43%;
+    left:34%;
+}
+
+.contact-topic-1 h1{
+    color: white;
+}
+
+
+.gallery-picture{
+    margin-top:80px;
+    margin-bottom:60px;
+    overflow: hidden;
+ 
+}
+.gallery-picture .mb-2 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+
+.gallery-picture .col-lg-4{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.ovy{
+    position: absolute;
+    top:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:1s;
+    opacity: 50%;
+    flex-direction: column;
+
+}
+.col-lg-4:hover .ovy{
+    top:0;
+    
+ }
+ .ovy i{
+    color:white;
+     margin-right: 0; 
+    font-size:30px;
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:376px) and (max-width:425px){
+  
+    
+ 
+.contact-topic-1{
+    position:absolute;
+    top:43%;
+    left:36%;
+}
+
+.contact-topic-1 h1{
+    color: white;
+}
+
+
+.gallery-picture{
+    margin-top:80px;
+    margin-bottom:60px;
+    overflow: hidden;
+ 
+}
+.gallery-picture .mb-2 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+
+.gallery-picture .col-lg-4{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.ovy{
+    position: absolute;
+    top:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:1s;
+    opacity: 50%;
+    flex-direction: column;
+
+}
+.col-lg-4:hover .ovy{
+    top:0;
+    
+ }
+ .ovy i{
+    color:white;
+     margin-right: 0; 
+    font-size:30px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+  
+.contact-topic-1{
+    position:absolute;
+    top:43%;
+    left:36%;
+}
+
+.contact-topic-1 h1{
+    color: white;
+    font-size:45px;
+}
+
+
+.gallery-picture{
+    margin-top:80px;
+    margin-bottom:60px;
+    overflow: hidden;
+ 
+}
+.gallery-picture .mb-2 img{
+    width:100%;
+    height:280px;
+    object-fit: cover;
+}
+
+.gallery-picture .col-lg-4{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.ovy{
+    position: absolute;
+    top:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:1s;
+    opacity: 50%;
+    flex-direction: column;
+
+}
+.col-lg-4:hover .ovy{
+    top:0;
+    
+ }
+ .ovy i{
+    color:white;
+     margin-right: 0; 
+    font-size:30px;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+
+    .contact-topic-1{
+        position:absolute;
+        top:43%;
+        left:36%;
+    }
+    
+    .contact-topic-1 h1{
+        color: white;
+        font-size:45px;
+    }
+    
+    
+    .gallery-picture{
+        margin-top:80px;
+        margin-bottom:60px;
+        overflow: hidden;
+     
+    }
+    .gallery-picture .mb-2 img{
+        width:100%;
+        height:280px;
+        object-fit: cover;
+    }
+    
+    .gallery-picture .col-lg-4{
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+    }
+    
+    .ovy{
+        position: absolute;
+        top:-100%;
+        left:0;
+        width:100%;
+        height:100%;
+        background-color:var(--color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition:1s;
+        opacity: 50%;
+        flex-direction: column;
+    
+    }
+    .col-lg-4:hover .ovy{
+        top:0;
+        
+     }
+     .ovy i{
+        color:white;
+         margin-right: 0; 
+        font-size:30px;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:768px) and (max-width:900px){
+
+   
+    .contact-topic-1{
+        position:absolute;
+        top:43%;
+        left:42%;
+    }
+    
+    .contact-topic-1 h1{
+        color: white;
+        font-size:45px;
+    }
+    
+    
+    .gallery-picture{
+        margin-top:80px;
+        margin-bottom:60px;
+        overflow: hidden;
+     
+    }
+    .gallery-picture .mb-2 img{
+        width:100%;
+        height:280px;
+        object-fit: cover;
+    }
+    
+    .gallery-picture .col-lg-4{
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+    }
+    
+    .ovy{
+        position: absolute;
+        top:-100%;
+        left:0;
+        width:100%;
+        height:100%;
+        background-color:var(--color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition:1s;
+        opacity: 50%;
+        flex-direction: column;
+    
+    }
+    .col-lg-4:hover .ovy{
+        top:0;
+        
+     }
+     .ovy i{
+        color:white;
+         margin-right: 0; 
+        font-size:30px;
+    }
+    
+    
+
+
+
+}
+
+@media screen and (min-width:901px) and (max-width:992px){
+
+  
+    .contact-topic-1{
+        position:absolute;
+        top:43%;
+        left:42%;
+    }
+    
+    .contact-topic-1 h1{
+        color: white;
+        font-size:45px;
+    }
+    
+    
+    .gallery-picture{
+        margin-top:80px;
+        margin-bottom:60px;
+        overflow: hidden;
+     
+    }
+    .gallery-picture .mb-2 img{
+        width:100%;
+        height:280px;
+        object-fit: cover;
+    }
+    
+    .gallery-picture .col-lg-4{
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+    }
+    
+    .ovy{
+        position: absolute;
+        top:-100%;
+        left:0;
+        width:100%;
+        height:100%;
+        background-color:var(--color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition:1s;
+        opacity: 50%;
+        flex-direction: column;
+    
+    }
+    .col-lg-4:hover .ovy{
+        top:0;
+        
+     }
+     .ovy i{
+        color:white;
+         margin-right: 0; 
+        font-size:30px;
+    }
+    
+    
+
+
+
+
+}
